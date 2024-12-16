@@ -1,4 +1,6 @@
 @echo off
+rem https://github.com/shippj/LansweeperVNC
+
 cd c:\vnc
 
 echo waiting on service to become usable...

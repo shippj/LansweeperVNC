@@ -1,4 +1,6 @@
 @echo off
+rem https://github.com/shippj/LansweeperVNC
+
 set p=%2\vnc\
 echo copying files...
 md \\%1\c$\vnc
