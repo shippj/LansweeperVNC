@@ -4,7 +4,7 @@ Lansweeper action to deploy a temporary VNC server, connect, then after you disc
 It can also work without lansweeper via ASK.BAT
 
 ## To setup in Lansweeper:
-1. Check to make sure you can access the computers you want to remote into via \\ComputerName\c$<br>
+1. Check to make sure you can access the computers you want to remote into via \\\\ComputerName\c$<br>
    This script depends on that access.
 
 2. In Lansweeper, go to configuration, asset pages, add asset action<br>
