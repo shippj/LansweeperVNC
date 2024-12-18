@@ -24,3 +24,21 @@ options.vnc<br>
 UltraVNC.ini<br>
 vnc.bat<br>
 wait.bat<br>
+
+## To setup in without Lansweeper:
+1. Check to make sure you can access the computers you want to remote into via \\\\ComputerName\c$<br>
+   This script depends on that access.
+
+2. Create a new folder anywhere you want.
+For example:<br>
+C:\Program Files\ConsoleViewer\ <br>
+C:\Users\username\desktop\ConsoleViewer\ <br>
+
+3. Download <a href="https://uvnc.com/downloads/ultravnc.html">UltraVNC</a> and copy winvnc.exe and vncviewer.exe and setcad.exe to the folder you created in step 2:<br>
+It probably works with other VNC flavors, but I haven't tested any.
+
+4. Download <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/psexec">psexec.exe</a> and move it to the folder you created in step 2
+
+6. Copy ALL of the files from this repo to the folder you created in step 2.<br>
+
+7. Optionally make a desktop shortcut to ask.bat
