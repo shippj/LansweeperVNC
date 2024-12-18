@@ -11,11 +11,11 @@ It can also work without lansweeper via ASK.BAT
 Description = VNC<br>
 Action = cmd.exe /K "{actionpath}vnc\vnc.bat {ipaddress} {actionpath}"
 
-3. Download UltraVNC and copy winvnc.exe and vncviewer.exe and setcad.exe to:<br>
+3. Download <a href="https://uvnc.com/downloads/ultravnc.html">UltraVNC</a> and copy winvnc.exe and vncviewer.exe and setcad.exe to:<br>
 C:\Program Files (x86)\Lansweeper\Actions\vnc<br>
 It probably works with other VNC flavors, but I haven't tested any.
 
-4. Download psexec.exe and move it to:<br>
+4. Download <a href="https://learn.microsoft.com/en-us/sysinternals/downloads/psexec">psexec.exe</a> and move it to:<br>
 C:\Program Files (x86)\Lansweeper\Actions\vnc
 
 5. Copy these files from this repo to:<br>
