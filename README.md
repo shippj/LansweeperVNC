@@ -25,7 +25,7 @@ UltraVNC.ini<br>
 vnc.bat<br>
 wait.bat<br>
 
-## To setup in without Lansweeper:
+## To setup without Lansweeper:
 1. Check to make sure you can access the computers you want to remote into via \\\\ComputerName\c$<br>
    This script depends on that access.
 
